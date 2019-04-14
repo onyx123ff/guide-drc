@@ -1,0 +1,24 @@
+{
+    "files": {
+        "LICENSE": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+        "README.md": "078654e796fed3b8ec4c4091761e23a4d238b5153e8801cce9296ad2e0ca557b",
+        "config.json": "699f7c4dcbb573b4faa936d385e1863c0e3da18b68f1c1cadb152d269132627f",
+        "index.js": "e2248383c8a8570e0b1681521a7f8708f637b6a4080467afc4f080f4fe9b1420",
+        "module.json": "25bad738de3931896004ff0e6bd278aaaaeac3ef25cbde4dfcab555a49c959ea"
+    },
+    "defs": {
+        "C_CHAT": 1,
+        "S_ACTION_STAGE": 8,
+        "S_BOSS_GAGE_INFO": 3,
+        "S_CHAT": 2,
+        "S_DESPAWN_BUILD_OBJECT": 2,
+        "S_DESPAWN_COLLECTION": 2,
+        "S_DESPAWN_DROPITEM": 4,
+        "S_DUNGEON_EVENT_MESSAGE": 2,
+        "S_LOAD_TOPO": 3,
+        "S_LOGIN": 10,
+        "S_SPAWN_BUILD_OBJECT": 2,
+        "S_SPAWN_COLLECTION": 4,
+        "S_SPAWN_DROPITEM": 6
+    }
+}
