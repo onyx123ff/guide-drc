@@ -1,8 +1,8 @@
 String.prototype.clr = function (hexColor) { return `<font color="#${hexColor}">${this}</font>` };
 const Vec3 = require('tera-vec3');
 // 定义恒量 
-const mapID = [9783, 9983];							// 地区坐标 zone 区分副本 下/上级
-const HuntingZn = [783, 983];						// 大型怪物 huntingZoneId 区分副本 下/上级
+const mapID = [9783, 9983,3018];							// 地区坐标 zone 区分副本 下/上级
+const HuntingZn = [783, 983,3018];						// 大型怪物 huntingZoneId 区分副本 下/上级
 const BossID = [1000, 2000, 3000];					// 大型怪物 templateId 区分副本 1-2-3王
 // 获取配置文档数据
 const config = require('./config.json');
@@ -88,7 +88,11 @@ module.exports = function DarkReachCitadelGuide(d) {				// 定义变量
 			insidemap = true;
 			d.command.message('Welcome to ' + 'Dark Reach Citadel '.clr('56B4E9') + '[HM]'.clr('00FFFF'));
 			load();
-		} else {
+		} else if (event.zone === mapID[2]){
+			insidemap = true;
+			d.command.message('Welcome to ' + 'Dark Reach Citadel '.clr('56B4E9') + '[HM] (7 man)'.clr('00FFFF'));
+			load();
+		}else {
 			unload();
 		}
     }
@@ -111,7 +115,7 @@ module.exports = function DarkReachCitadelGuide(d) {				// 定义变量
 				if (event.huntingZoneId == HuntingZn[0]) {			// 下级副本
 					insidezone = true;
 					whichmode = 1;
-				} else if (event.huntingZoneId == HuntingZn[1]) {	// 上级副本
+				} else if (event.huntingZoneId == HuntingZn[1] || event.huntingZoneId == HuntingZn[2]) {	// 上级副本
 					insidezone = true;
 					whichmode = 2;
 				} else {
