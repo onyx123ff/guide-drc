@@ -1,6 +1,7 @@
 {
-    "disableAutoUpdate": false,
-    "name": "DRC - Guide",
-    "description": "v80 patch 7man",
-    "servers": ["https://raw.githubusercontent.com/onyx123ff/guide-drc/master"]
+   "disableAutoUpdate": false,
+	"options": {
+		"niceName": "DRC-Guide"
+	},
+	"servers": ["https://raw.githubusercontent.com/onyx123ff/guide-drc/master/"]
 }
