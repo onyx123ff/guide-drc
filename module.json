@@ -1,7 +1,0 @@
-{
-	"disableAutoUpdate": false,
-	"options": {
-		"niceName": "DRC-Guide"
-	},
-	"servers": ["https://raw.githubusercontent.com/onyx123ff/drc-guide/master/"]
-}
