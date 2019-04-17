@@ -1,8 +1,8 @@
 {
     "config.json": {
-            "overwite": false,
-            "hash": "699f7c4dcbb573b4faa936d385e1863c0e3da18b68f1c1cadb152d269132627f"
-     },
+        "overwite": false,
+        "hash": "699f7c4dcbb573b4faa936d385e1863c0e3da18b68f1c1cadb152d269132627f"
+    },
     "files": {
         "README.md": "078654e796fed3b8ec4c4091761e23a4d238b5153e8801cce9296ad2e0ca557b",
         "config.json": "699f7c4dcbb573b4faa936d385e1863c0e3da18b68f1c1cadb152d269132627f",
