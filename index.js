@@ -1,7 +1,7 @@
 String.prototype.clr = function (hexColor) { return `<font color="#${hexColor}">${this}</font>` };
 const Vec3 = require('tera-vec3');
 // 定义恒量 
-const mapID = [9783, 9983,3018];							// 地区坐标 zone 区分副本 下/上级 test..
+const mapID = [9783, 9983,3018];							//dasd// 地区坐标 zone 区分副本 下/上级 test..
 const HuntingZn = [783, 983,3018];						// 大型怪物 huntingZoneId 区分副本 下/上级
 const BossID = [1000, 2000, 3000];					// 大型怪物 templateId 区分副本 1-2-3王
 // 获取配置文档数据
