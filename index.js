@@ -67,7 +67,7 @@ module.exports = function DarkReachCitadelGuide(d) {				// 定义变量
 		}
 	});
 
-	d.hook('S_LOGIN', 10, sLogin)						// 获取 登入角色信息
+	d.hook('S_LOGIN', 13, sLogin)						// 获取 登入角色信息
 	d.hook('S_LOAD_TOPO', 3, sLoadTopo);				// 获取 登陆地区信息
 
 	function sLogin(event) {
